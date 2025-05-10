@@ -3,7 +3,7 @@ let songs;
 let currFolder;
 
 async function firstFolder(){
-    let a = await fetch(`./songs/`)
+    let a = await fetch(`https://spoclone-eight.vercel.app/songs/`)
     let response = await a.text()
 
     let div = document.createElement("div")
